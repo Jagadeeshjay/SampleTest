@@ -23,6 +23,9 @@ public class Test1 {
 		Actions a=new Actions(driver);
 		a.moveToElement(ele).perform();
 		
+		Actions a1 =new Actions(driver);
+		a1.moveToElement(ele).perform();
+		
 		Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("(//a[text()='All Shirts'])[2]")).click();
